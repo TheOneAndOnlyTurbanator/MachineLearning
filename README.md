@@ -1,6 +1,5 @@
-Both model.pickle and train.ipynb are in the task folder.
+Both model.pickle and train.ipynb are in the task folder. These folders have the programs that I used to train the model
 
-Group Members Names:
-- Gurdeep Barring
+- Used Reinforcement Learning in order to train model.
 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/cFLwf7Ck)
+- Used Tensorflow python library for Machine Learning 
