@@ -1,0 +1,62 @@
+- Question 1: What are the denominations of the US coins from the green, blue and orange
+distributions? Can you think why the coins from the same denomination might show variation in
+weight although they are specified to be of the same weight? If your vending machine had a
+weight sensor, how would you use the weight of a coin that was just inserted to find the
+denomination?
+
+The green represents a penny, the blue represents a nickel, and the orange represents a dollar. The
+reason why the coins might show slight variation is because there is a lot of different facotrs that can 
+impact a coin's weight such as oxidation or even rust. Furthermore, if I was using a vending machine that
+has a weight sensor, I would compare the weight of the coin to the range of weights for each coin denomination. 
+Each coin denomination will have a ranage that will aproximate the weight of the coin. Using this range, the 
+weight sensor will identify the coin if the weight falls within the range.  
+
+- Question 2: We can shine light on the coin and measure the reflected amount of light which
+should be proportional (directly or in some non-linear way) to the size/area of the coin. Can you
+guess which sensor on the Grove Pi Kit can be used for this purpose?
+
+The grove light sesnor can be used to measure the reflected amount of light. 
+
+- Question 3: Which of the following datasets are linearly separable? Justify your answer.
+
+Clearly datasets A, C, and D are linearly separable. This is because when you see the two data sets, 
+there is clear fit with for a linear line
+
+- Question 4: Sometimes we need more than a simple hyperplane to separate the datasets of the
+two classes. What are some other simple geometric entities other than a simple plane/line that
+can be used to separate some of the data points that were not linearly separable?
+
+There are other shapes that can be used to seperate datapoints that are NOT linear. For example, if we look at 
+the graph in F, the data clearly shows an ellipse. Furthrmore, other shapes can also be used such as a circle, 
+parabolas, and hyperbolas. 
+Circle: (x−a)^2+(y−b)^2=r^2
+Parabola: (y−b)^2=4p(x−a)
+Ellipse: (x−a)^2/h^2+(y−b)^2/k^2=1
+Hyperbola: (x−a)^2/h^2−(y−b)^2/k^2=1
+
+- Question 5: For example shown in the figure, what is approximately the output of the neuron?
+
+For the picture above, the neuron will be a sigmoid function where the X^(T)W is the weights and w_0 
+is a vector which represents the bias of a neuron. The sigmoid function will also include a y intercept 
+at (0,0.5).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
